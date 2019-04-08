@@ -1,0 +1,27 @@
+1.	d++ as local variables don't have default values
+2.	s
+3.	-1 as *v sub string but 'i' not there
+4.	c&d probably
+5.	all are correct
+6.	anonymous inner class can extend only 1 interface. option d is correct
+7.	public class erya implements horse{psvm(string args[]){void nicker(int nicker(int x))}} , so option c
+8.	comparator
+9.	java.util.TreeMap
+10.	Optional[210]
+11.	[null,1,1] if Set<String> generic is used then there would be compilation error on the Integer.
+12.	[five,four,one,three,two]
+13.	serialization- objectInputStream & objectOtputStream
+14.	true  bifunction 10<20
+15.	hollow wow world
+16.	[world,hello]
+17.	false  bifunction 45>50
+18.	serializable
+19.	numberformatexception if 2nd argument passed as string and 1st as number...... arrayindexoutofbound if no arguments passed... 10hello if sout(ar[0]+ar[1]).....
+			..... compilation error if int c=ar[0]+ar[1]; sout(c);
+20.	done finally........ but if argument passed as 10 then only finally will print
+21.	cd
+22.	sqlexception
+23.	compilation error due to incompatible types 
+24.	thread.currentthread().getname();
+25.	serialization is the mechanism of saving the state of an object in a file
+26.	
