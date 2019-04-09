@@ -25,3 +25,53 @@
 24.	thread.currentthread().getname();
 25.	serialization is the mechanism of saving the state of an object in a file
 26.	
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+notes
+------
+<%! jsp declaration %>
+<% jsp scriplet %>
+<%= jsp expression %>
+
+<%@include file="" %>
+
+<jsp:include pages="">
+
+<jsp:forward page="">
+
+<jsp:usebean id="emp" class="com.demo.Employee" scope="request"/>
+
+for scope valid options are page,request,session,application
+
+session.invalidate() to end session, or setmaxinactiveinterval(xx)
+
+request.getSession(true) to create session and (false) wont create new session if it doesnt exist already 
+
+<%@page session="false" %>
+session object used anywhere in jsp after mentioning session="flase" will give compilation error
+
+
+page1.jsp
+<%@page session="false" %>
+Hello page 1
+
+page2.jsp
+<%@page session="true" %>
+hello page 2
+
+<%@include file="page1.jsp"%>
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+1.	Single table per class hierarchy strategy : SINGLE TABLE
+2.	annotation for entity class @entity & @id
+3.	as uri       /someApp/....
+4.	method of httpsession to get creation of session :    getCreationTime()
+5.	interservlet communication	:	getServletContext().getRequestDispatcher("path") re.include(request,response);
+6.	prints "testing method sample" 
+7.	include directive
+8.	<jsp:useBean>
+9. ${items}
+10.	
